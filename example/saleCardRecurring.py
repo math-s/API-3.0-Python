@@ -11,7 +11,7 @@ import json
 environment = Environment(sandbox=True)
 
 # Configure seu merchant, para gerar acesse: https://cadastrosandbox.cieloecommerce.cielo.com.br/
-merchant = Merchant('MerchantId', 'MerchantKey')
+merchant = Merchant(settings.MERCHANT_ID, settings.MERCHANT_KEY)
 
 # Crie uma instância de Sale informando o ID do pagamento
 sale = Sale('789')

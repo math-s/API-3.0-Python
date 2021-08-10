@@ -18,11 +18,22 @@ sale = Sale('333')
 
 # Crie uma instância de Customer informando o nome do cliente
 sale.customer = Customer('Comprador Teste')
+sale.customer.email = 'test@test.com'
+
+address = Address()
+address.street = "Rua Teste"
+address.number = "123"
+address.complement = "AP 123"
+address.zip_code = "12345987"
+address.city = "Sao Paulo"
+address.state = "SP"
+address.country = "BRA"
+
+sale.customer.address = address
 
 # Crie uma instância de Payment informando o valor do pagamento
 sale.payment = Payment(15700)
 sale.payment.type = PAYMENTTYPE_BOLETO
-
 sale.payment.provider = PROVIDER_BRADESCO
 
 # Cria instância do controlador do ecommerce
