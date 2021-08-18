@@ -19,11 +19,11 @@ if sys.argv[-1] == 'publish':
 
 settings.update(
     name='cieloApi3',
-    version='0.1.5',
+    version='0.1.0',
     description='SDK API-3.0 Python Cielo',
-    author='Thiago Malaquias',
-    author_email='thiago.malaca@gmail.com',
-    url='https://github.com/thiago-Malaca/API-3.0-Python',
+    author='Matheus Andrade',
+    author_email='matheus.andrade1996@gmail.com',
+    url='https://github.com/math-s/API-3.0-Python',
     keywords='api3.0 cielo python sdk ecommerce',
     packages=find_packages(),
     install_requires=['requests', 'future'],
@@ -34,7 +34,6 @@ settings.update(
         'Natural Language :: English',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        # 'Programming Language :: Python :: 2.5',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.4',
@@ -45,21 +44,3 @@ settings.update(
 
 setup(**settings)
 
-
-
-
-# # -*- coding: utf-8 -*-
-# from setuptools import setup
-
-# setup(
-#     name='cieloApi3',
-#     version='0.1.1',
-#     url='',
-#     license='MIT License',
-#     author='Thiago Malaquias',
-#     author_email='',
-#     keywords='api3.0 cielo python sdk ecommerce',
-#     description=u'',
-#     packages=['cielo.api30'],
-#     install_requires=['requests'],
-# )
