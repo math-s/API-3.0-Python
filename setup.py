@@ -18,8 +18,8 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 settings.update(
-    name='cieloApi3',
-    version='0.1.0',
+    name='cieloApi3-b2bit',
+    version='2021.8.19',
     description='SDK API-3.0 Python Cielo',
     author='Matheus Andrade',
     author_email='matheus.andrade1996@gmail.com',
